@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1a2737;
+  color: #ffff;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background: #161a20;
+  width: 87%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 39px 0;
+}
+.image-logo img {
+  width: 250px;
+  margin-bottom: 14px;
+}
+
+.blue {
+  color: #70aacc;
+}
+.recipent {
+  color: #70aacc;
+  font-size: 30px;
+}
+
+.calc {
+  width: 87%;
+  background: #223f61;
+  padding-top: 43px;
+}
+
+.calc-heading {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 13px;
+}
+.t {
+  margin-right: -187px;
+}
+.s {
+  margin-right: -201px;
+}
+.t,
+.s,
+.p,
+.ip {
+  font-size: 30px;
+}
+hr {
+  position: relative;
+  left: 210px;
+  width: 79%;
+  margin-bottom: 25px;
+}
+.d {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 13px;
+}
+
+.dt,
+.ds,
+.dp,
+.dip {
+  font-size: 30px;
+}
+
+.dip{
+position: relative;
+left: 10px;
+}
+.dp{
+position: relative;
+left: 80px;
+}
+.ds{
+position: relative;
+left: 207px;
+}
+.dt{
+   position: relative; 
+   left: 160px;
+}
+
+.fs{
+   position: relative;
+left: 210px;
+font-size: 30px; 
+}
+
+.st,
+.ss,
+.sp,
+.sip {
+  font-size: 30px;
+}
+.sip{
+position: relative;
+left: 42px;
+}
+.sp{
+position: relative;
+left: 50px;
+}
+.ss{
+position: relative;
+left: 93px;
+}
+.st{
+   position: relative; 
+   left: 80px;
+}
+
+.total,.amount{
+  font-size: 45px;
+  position: relative;
+}
+
+.total{
+left: -140px;
+}
+.amount{
+left: 250px;
+}
+
+.total-amount{
+  display: flex;
+  justify-content: space-around;
+}
+footer{
+  margin-top: 45px;
+  padding-bottom: 45px;
+  display: flex;
+  justify-content: center;
+}
